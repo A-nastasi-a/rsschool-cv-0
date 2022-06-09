@@ -5,9 +5,14 @@
 }
 
 body {
-    background-color: #e8e2dc;
-    color: #615e5b;
+    background-color: #190a11;
+    color: #c0987b;
     font: 20px sans-serif;
+}
+
+a {
+    color: #190a11;
+    text-decoration: none;
 }
 
 
@@ -21,18 +26,19 @@ body {
 }
 
 header {
-    background-color: #f7c899;
+    background-color: #c7c4a3;
     height: 400px;
 }
 
 nav {
     display: inline-block;
     position: absolute;
-    background-color: #e8e2dc;
+    background-color: #190a11;
     height: 45px;
-    width: 740px;
-    left: 300px;
+    width: 656px;
+    left: 302px;
     top: 180px;
+    border: 1px solid #c7c4a3;
 }
 
 li {
@@ -43,19 +49,19 @@ nav li {
     display: inline-block;
     font-size: 18px;
     font-weight: bold;
-    padding: 13px 30px;
+    padding: 13px 29px;
 }
 
 nav li:hover {
-    background-color: #fabf85;
-}
-
-a {
-    text-decoration: none;
+    background-color: #68714a;
 }
 
 nav li a {
-    color: #615e5b;
+    color: #c0987b;
+}
+
+main {
+    border: 1px solid #c7c4a3;
 }
 
 header h1 {
@@ -63,6 +69,7 @@ header h1 {
     margin-top: 50px;
     position: absolute;
     left: 420px;
+    color: #190a11
 }
 
 header img {
@@ -75,29 +82,21 @@ section {
 
 section h2 {
     text-align: center;
-    background-color: #f7c899;
-}
-
-footer {
-    margin: auto;
-    background-color: #a7a29e;
-}
-
-footer p,
-footer a {
-    color: #2b2928;
+    background-color: #c7c4a3;
+    color: #190a11;
 }
 
 .sidebar {
-    height: 78%;
+    height: 83%;
     width: 300px;
-    background-color: #f7c899;
+    background-color: #c7c4a3;
     position: absolute;
-    border: 1px solid #f7c899;
+    color: #190a11;
 }
 
 .sidebar h2 {
-    background-color: #e8e2dc;
+    background-color: #190a11;
+    color: #c7c4a3;
 }
 
 .main-container {
@@ -106,6 +105,61 @@ footer a {
     left: 300px;
 }
 
-hr {
-    border: 1px solid #a7a29e;
+.info {
+    padding: 5px 0 0 10px;
+    font-family: serif;
+}
+
+#examples .info {
+    font: 17px monospace #190a11;
+    background-color: #68714a;
+    margin: 10px 25px;
+}
+
+#about li {
+    list-style: inside;
+    margin-left: 10px;
+}
+
+.sidebar .contacts {
+    padding: 10px;
+    color: #190a11;
+    font-size: 17px;
+}
+
+.sidebar .contacts li {
+    padding: 5px 0;
+}
+
+.sidebar .contacts strong {
+    font-size: 21px;
+}
+
+.sidebar .skills {
+    margin: 5px 0 5px 15px;
+}
+
+.sidebar .skills em {
+    font-weight: bold;
+    font-style: none;
+}
+
+.sidebar .skills ul li {
+    list-style: inside;
+    margin-left: 10px;
+}
+
+.sidebar p {
+    margin: 25px 0 0 15px;
+    font-weight: bold;
+}
+
+footer {
+    margin: auto;
+    background-color: #68714a;
+}
+
+footer p,
+footer a {
+    color: #8eb2ac;
 }
