@@ -5,18 +5,15 @@
 }
 
 body {
-    background-color: #190a11;
-    color: #c0987b;
-    font: 20px sans-serif;
+    background-color: #FBF6EA;
+    color: #3d3b3a;
+    font: 20px Montserrat, sans-serif;
 }
 
 a {
-    color: #190a11;
+    color: #3d3b3a;
     text-decoration: none;
 }
-
-
-/* Размещение по центру экрана */
 
 .center {
     width: 960px;
@@ -26,19 +23,19 @@ a {
 }
 
 header {
-    background-color: #c7c4a3;
+    background-color: #EADFD5;
     height: 400px;
 }
 
 nav {
     display: inline-block;
     position: absolute;
-    background-color: #190a11;
+    background-color: #FBF6EA;
     height: 45px;
     width: 656px;
     left: 302px;
     top: 180px;
-    border: 1px solid #c7c4a3;
+    border: 1px solid #EADFD5;
 }
 
 li {
@@ -50,18 +47,19 @@ nav li {
     font-size: 18px;
     font-weight: bold;
     padding: 13px 29px;
-}
-
-nav li:hover {
-    background-color: #68714a;
+    border-radius: 3px;
 }
 
 nav li a {
-    color: #c0987b;
+    color: #3d3b3a;
 }
 
-main {
-    border: 1px solid #c7c4a3;
+nav li:hover {
+    background-color: #C3B39D;
+}
+
+header img {
+    position: relative;
 }
 
 header h1 {
@@ -69,34 +67,21 @@ header h1 {
     margin-top: 50px;
     position: absolute;
     left: 420px;
-    color: #190a11
-}
-
-header img {
-    position: relative;
-}
-
-section {
-    width: 960px;
+    color: #3d3b3a;
 }
 
 section h2 {
     text-align: center;
-    background-color: #c7c4a3;
-    color: #190a11;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #3d3b3a;
 }
 
 .sidebar {
     height: 83%;
     width: 300px;
-    background-color: #c7c4a3;
+    background-color: #EADFD5;
     position: absolute;
-    color: #190a11;
-}
-
-.sidebar h2 {
-    background-color: #190a11;
-    color: #c7c4a3;
+    color: #3d3b3a;
 }
 
 .main-container {
@@ -107,13 +92,13 @@ section h2 {
 
 .info {
     padding: 5px 0 0 10px;
-    font-family: serif;
 }
 
 #examples .info {
-    font: 17px monospace #190a11;
-    background-color: #68714a;
+    font: 17px monospace;
+    background-color: #DEE6E9;
     margin: 10px 25px;
+    color: #1f1d1d;
 }
 
 #about li {
@@ -121,18 +106,45 @@ section h2 {
     margin-left: 10px;
 }
 
+#experiense .info {
+    margin: 5px 0 10px 15px;
+}
+
+#experiense .info .container {
+    margin-bottom: 17px;
+}
+
+#experiense .container li {
+    font-size: 16px;
+    list-style: inside;
+}
+
+#education {
+    margin: 15px 0 10px 15px;
+    color: #3d3b3a;
+}
+
+#education h3 {
+    text-align: center;
+}
+
+#education ul li {
+    list-style-type: circle;
+    margin-left: 10px;
+}
+
+#education ul li ul li {
+    list-style: inside;
+    margin-left: 10px;
+}
+
 .sidebar .contacts {
     padding: 10px;
-    color: #190a11;
     font-size: 17px;
 }
 
 .sidebar .contacts li {
-    padding: 5px 0;
-}
-
-.sidebar .contacts strong {
-    font-size: 21px;
+    padding: 10px 0;
 }
 
 .sidebar .skills {
@@ -155,11 +167,12 @@ section h2 {
 }
 
 footer {
-    margin: auto;
-    background-color: #68714a;
+    margin-top: 25px;
+    background-color: #C3B39D;
 }
 
-footer p,
-footer a {
-    color: #8eb2ac;
+footer li {
+    display: inline;
+    text-align: center;
+    margin: 120px;
 }
