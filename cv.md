@@ -2,7 +2,7 @@
 
 
 ## Anastasia Evsihneyeva
-![photo](photo.jpg "Моё фото")
+![photo](images/photo.jpg "Моё фото")
 
 ## Contacts
 1. **GitHub** A-nastasi-a
