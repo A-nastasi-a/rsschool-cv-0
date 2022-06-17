@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Red Hat Text";
+    src: url('fonts/RedHatText-Light.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Red Hat Text Italic";
+    src: url('fonts/RedHatText-Italic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Red Hat Text Bold";
+    src: url('fonts/RedHatText-Bold.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    background-color: #F2785C;
+    opacity: 0.7;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    color: #FFFFFF;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 16px;
+}
+
+.navigation>ul {
+    display: flex;
+}
+
+.navigation>ul>li {
+    list-style-type: none;
+    margin: 0 14px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #0D606F;
+    color: #FFFFFF;
+    padding: 10px;
+}
