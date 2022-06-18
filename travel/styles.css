@@ -4,13 +4,18 @@
 }
 
 @font-face {
-    font-family: "Red Hat Text Italic";
-    src: url('fonts/RedHatText-Italic.ttf') format('ttf');
+    font-family: "Red Hat Text Medium";
+    src: url('fonts/RedHatText-Medium.ttf') format('ttf');
 }
 
 @font-face {
-    font-family: "Red Hat Text Bold";
-    src: url('fonts/RedHatText-Bold.ttf') format('ttf');
+    font-family: "Aleo Bold";
+    src: url('fonts/Aleo-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Aleo Bold Italic";
+    src: url('fonts/Aleo-BoldItalic.ttf') format('ttf');
 }
 
 * {
@@ -48,6 +53,38 @@ header {
 .logo {
     font-size: 32px;
     font-weight: bold;
+}
+
+.preview {
+    margin: 30px 0 0 50px;
+    width: 892px;
+    height: 422px;
+    background-color: black;
+}
+
+.preview p {
+    font-family: "Aleo Bold Italic";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.preview .search {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 95px;
+    border-radius: 10px;
+}
+
+.preview .search p {
+    font-family: "Red Hat Text Medium";
+    font-size: 24px;
+    color: #F2785C;
+}
+
+h1 {
+    font-family: "Aleo Bold";
+    font-size: 80px;
+    color: #FFFFFF;
 }
 
 button {
