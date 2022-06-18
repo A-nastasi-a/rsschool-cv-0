@@ -98,14 +98,6 @@ h1 {
     height: 247px;
 }
 
-.steps h2 {
-    display: flex;
-    justify-content: center;
-    font-family: "Red Hat Text", sans-serif;
-    font-size: 40px;
-    color: #F2785C;
-}
-
 .steps .activities {
     display: flex;
     justify-content: space-between;
@@ -132,18 +124,45 @@ h1 {
     color: #0D606F;
 }
 
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinations .countries {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 40px;
+    color: #F2785C;
+}
+
 button {
     background-color: #0D606F;
     font-size: 24px;
     height: 59px;
     border: none;
     color: #FFFFFF;
-    padding: 10px 25px;
     outline: 0;
     border-radius: 10px;
+    padding: 0 10px;
 }
 
 header button {
     font-size: 16px;
     height: 41px;
+    padding: 10px 25px;
+}
+
+.destinations button {
+    width: 200px;
+    border: 1px solid black;
 }
