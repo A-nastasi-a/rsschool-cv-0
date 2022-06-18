@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Red Hat Text";
-    src: url('fonts/RedHatText-Medium.ttf') format('ttf');
+    src: url('fonts/RedHatText-Light.ttf') format('ttf');
 }
 
 @font-face {
@@ -87,9 +87,49 @@ header {
 }
 
 h1 {
-    font-family: "Aleo";
+    font-family: "Aleo", "Lato", serif;
     font-size: 80px;
     color: #FFFFFF;
+}
+
+.steps {
+    margin: auto;
+    width: 1117px;
+    height: 247px;
+}
+
+.steps h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 40px;
+    color: #F2785C;
+}
+
+.steps .activities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.steps .activities .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps .activities img {
+    background-color: #F2785C;
+    outline: 25px solid #F2785C;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.steps .activities p {
+    font-family: "Aleo";
+    font-size: 20px;
+    color: #0D606F;
 }
 
 button {
