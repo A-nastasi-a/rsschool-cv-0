@@ -30,6 +30,12 @@ body {
     margin: auto;
 }
 
+.head-pic img {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
 header {
     display: flex;
     background-color: rgba(242, 120, 92, 0.7);
@@ -62,7 +68,7 @@ header {
     margin: 30px 0 50px 110px;
     width: 892px;
     height: 422px;
-    background-color: black;
+    margin-bottom: 320px;
 }
 
 .preview p {
@@ -75,7 +81,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.6);
     height: 95px;
     border-radius: 10px;
 }
@@ -136,6 +142,47 @@ h1 {
     width: 100%;
 }
 
+.stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.stories .story {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Aleo";
+    color: #0D606F;
+}
+
+.stories .story .info {
+    width: 760px;
+    padding-bottom: 24px;
+}
+
+.stories .story .info a {
+    text-decoration: none;
+    color: #0D606F;
+}
+
+.stories .story .info h3 {
+    padding-bottom: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
 h2 {
     display: flex;
     justify-content: center;
@@ -143,6 +190,8 @@ h2 {
     font-family: "Red Hat Text", sans-serif;
     font-size: 40px;
     color: #F2785C;
+    margin-bottom: 50px;
+    margin-top: 80px;
 }
 
 button {
@@ -153,7 +202,7 @@ button {
     color: #FFFFFF;
     outline: 0;
     border-radius: 10px;
-    padding: 0 10px;
+    padding: 0 25px;
 }
 
 header button {
@@ -164,5 +213,4 @@ header button {
 
 .destinations button {
     width: 200px;
-    border: 1px solid black;
 }
