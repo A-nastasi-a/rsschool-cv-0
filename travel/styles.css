@@ -16,6 +16,14 @@ body {
     z-index: -1;
 }
 
+.bottom-pic img {
+    display: flex;
+    position: relative;
+    margin-top: -930px;
+    z-index: -1;
+    top: 1100px;
+}
+
 header {
     display: flex;
     background-color: rgba(242, 120, 92, 0.7);
@@ -154,7 +162,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 1450px;
+    margin-top: -420px;
+}
+
+.stories .story-box {
+    margin-top: 50px;
 }
 
 .stories .story {
@@ -162,11 +176,17 @@ h1 {
     justify-content: space-around;
     font-family: "Aleo";
     color: #0D606F;
+    margin: 15px 0;
 }
 
 .stories .story .info {
     width: 760px;
     padding-bottom: 24px;
+}
+
+.stories .story img {
+    margin-right: 15px;
+    border-radius: 16px;
 }
 
 .stories .story .info a {
@@ -184,11 +204,20 @@ footer {
     align-items: center;
 }
 
+footer p {
+    color: #FFFFFF;
+}
+
 footer ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    width: 150px;
+}
+
+footer ul li {
+    list-style-type: none;
 }
 
 h2 {
@@ -221,4 +250,6 @@ header button {
 
 .destinations button {
     width: 200px;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 16px;
 }
