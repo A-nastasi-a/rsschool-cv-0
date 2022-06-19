@@ -206,6 +206,8 @@ footer {
 
 footer p {
     color: #FFFFFF;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 16px;
 }
 
 footer ul {
@@ -250,6 +252,4 @@ header button {
 
 .destinations button {
     width: 200px;
-    font-family: "Red Hat Text", sans-serif;
-    font-size: 16px;
 }
