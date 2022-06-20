@@ -47,7 +47,13 @@ header {
 
 .navigation>ul>li {
     list-style-type: none;
-    margin: 0 14px;
+    padding: 10px 14px;
+    margin: 0 5px;
+}
+
+.navigation>ul>li:hover {
+    background-color: rgba(242, 120, 92, 0.9);
+    transition: 1s;
 }
 
 .logo {
@@ -248,6 +254,16 @@ button {
     outline: 0;
     border-radius: 10px;
     padding: 0 25px;
+}
+
+button:hover {
+    background-color: #0c5461;
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: #083841;
+    transition: 0.5s;
 }
 
 header button {
